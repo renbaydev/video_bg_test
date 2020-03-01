@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6715a544-c37f-4163-ac6d-ddbd38409d15" name="Default Changelist" comment="" />
+    <list default="true" id="6715a544-c37f-4163-ac6d-ddbd38409d15" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,7 +15,11 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YWXeCR8vhdjdyX64OE1ajqKNGb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -26,7 +33,17 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.serve:dist">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="serve:dist" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -49,6 +66,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.serve:dist" />
         <item itemvalue="npm.start" />
       </list>
@@ -64,7 +82,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583059416654</updated>
-      <workItem from="1583059420190" duration="1329000" />
+      <workItem from="1583059420190" duration="2414000" />
+      <workItem from="1583076420022" duration="101000" />
     </task>
     <servers />
   </component>
@@ -72,26 +91,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1583060883499">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1583061458622">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.137.1536.864@0.0.1920.1040" timestamp="1583060883499" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1583060883499">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.137.1536.864@0.0.1920.1040" timestamp="1583061458622" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1583061458622">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.137.1536.864@0.0.1920.1040" timestamp="1583060883499" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1583060883499">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.137.1536.864@0.0.1920.1040" timestamp="1583061458622" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1583061458622">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.137.1536.864@0.0.1920.1040" timestamp="1583060883499" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1583060883499">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.137.1536.864@0.0.1920.1040" timestamp="1583061458622" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1583061458622">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.137.1536.864@0.0.1920.1040" timestamp="1583060883499" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1583059420622">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.137.1536.864@0.0.1920.1040" timestamp="1583061458622" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1583076448082">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.137.1536.864@0.0.1920.1040" timestamp="1583059420622" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.137.1536.864@0.0.1920.1040" timestamp="1583076448082" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583060455350">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -2,11 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6715a544-c37f-4163-ac6d-ddbd38409d15" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/scripts/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/modernizr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/vendor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/styles/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/styles/vendor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +28,13 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,11 +49,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dist" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/styles" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\web\tests\webapptest\app\styles" />
+      <recent name="D:\Projects\web\tests\webapptest\app\images" />
+      <recent name="D:\Projects\web\tests\webapptest\app\scripts" />
+      <recent name="D:\Projects\web\tests\webapptest\app" />
+      <recent name="D:\Projects\web\tests\webapptest\dist" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.serve:dist">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -58,6 +86,16 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="serve:test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve:test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -68,11 +106,23 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="npm.build" />
-        <item itemvalue="npm.serve:dist" />
+        <item itemvalue="npm.test" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.serve:dist" />
+        <item itemvalue="npm.serve:test" />
       </list>
     </recent_temporary>
   </component>
@@ -87,7 +137,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583059416654</updated>
       <workItem from="1583059420190" duration="2414000" />
-      <workItem from="1583076420022" duration="1179000" />
+      <workItem from="1583076420022" duration="4512000" />
     </task>
     <task id="LOCAL-00001" summary="manifest example">
       <created>1583077356908</created>
@@ -96,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583077356908</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="manifest example">
+      <created>1583077619561</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583077619561</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,41 +164,46 @@
     <option name="LAST_COMMIT_MESSAGE" value="manifest example" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2313" y="164" key="CommitChangelistDialog2" timestamp="1583077356210">
+    <state x="2313" y="164" key="CommitChangelistDialog2" timestamp="1583077618772">
       <screen x="1920" y="137" width="1536" height="864" />
     </state>
-    <state x="2313" y="164" key="CommitChangelistDialog2/0.0.1920.1040/1920.137.1536.864@1920.137.1536.864" timestamp="1583077356209" />
-    <state width="1493" height="282" key="GridCell.Tab.0.bottom" timestamp="1583077537421">
+    <state x="2313" y="164" key="CommitChangelistDialog2/0.0.1920.1040/1920.137.1536.864@1920.137.1536.864" timestamp="1583077618772" />
+    <state width="1493" height="195" key="GridCell.Tab.0.bottom" timestamp="1583081015747">
       <screen x="1920" y="137" width="1536" height="864" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.137.1536.864@0.0.1920.1040" timestamp="1583061458622" />
-    <state width="1493" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.137.1536.864@1920.137.1536.864" timestamp="1583077537421" />
-    <state width="1493" height="282" key="GridCell.Tab.0.center" timestamp="1583077537421">
+    <state width="1493" height="195" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.137.1536.864@1920.137.1536.864" timestamp="1583081015747" />
+    <state width="1493" height="195" key="GridCell.Tab.0.center" timestamp="1583081015747">
       <screen x="1920" y="137" width="1536" height="864" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.137.1536.864@0.0.1920.1040" timestamp="1583061458622" />
-    <state width="1493" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.137.1536.864@1920.137.1536.864" timestamp="1583077537421" />
-    <state width="1493" height="282" key="GridCell.Tab.0.left" timestamp="1583077537421">
+    <state width="1493" height="195" key="GridCell.Tab.0.center/0.0.1920.1040/1920.137.1536.864@1920.137.1536.864" timestamp="1583081015747" />
+    <state width="1493" height="195" key="GridCell.Tab.0.left" timestamp="1583081015747">
       <screen x="1920" y="137" width="1536" height="864" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.137.1536.864@0.0.1920.1040" timestamp="1583061458622" />
-    <state width="1493" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.137.1536.864@1920.137.1536.864" timestamp="1583077537421" />
-    <state width="1493" height="282" key="GridCell.Tab.0.right" timestamp="1583077537421">
+    <state width="1493" height="195" key="GridCell.Tab.0.left/0.0.1920.1040/1920.137.1536.864@1920.137.1536.864" timestamp="1583081015747" />
+    <state width="1493" height="195" key="GridCell.Tab.0.right" timestamp="1583081015747">
       <screen x="1920" y="137" width="1536" height="864" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.137.1536.864@0.0.1920.1040" timestamp="1583061458622" />
-    <state width="1493" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.137.1536.864@1920.137.1536.864" timestamp="1583077537421" />
-    <state x="2281" y="302" key="Vcs.Push.Dialog.v2" timestamp="1583077362186">
+    <state width="1493" height="195" key="GridCell.Tab.0.right/0.0.1920.1040/1920.137.1536.864@1920.137.1536.864" timestamp="1583081015747" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1583079014795">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.137.1536.864@0.0.1920.1040" timestamp="1583079014795" />
+    <state x="2281" y="302" key="Vcs.Push.Dialog.v2" timestamp="1583077622197">
       <screen x="1920" y="137" width="1536" height="864" />
     </state>
-    <state x="2281" y="302" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.137.1536.864@1920.137.1536.864" timestamp="1583077362186" />
+    <state x="2281" y="302" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.137.1536.864@1920.137.1536.864" timestamp="1583077622197" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1583076448082">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.137.1536.864@0.0.1920.1040" timestamp="1583076448082" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583060455350">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2418" y="324" width="672" height="564" key="search.everywhere.popup" timestamp="1583078982256">
+      <screen x="1920" y="137" width="1536" height="864" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.137.1536.864@0.0.1920.1040" timestamp="1583060455350" />
+    <state x="2418" y="324" width="672" height="564" key="search.everywhere.popup/0.0.1920.1040/1920.137.1536.864@1920.137.1536.864" timestamp="1583078982256" />
   </component>
 </project>

@@ -1,1 +1,1 @@
-"use strict";
+"use strict";var sequenceElement=document.getElementById("sequence"),options={preloader:!0,animateCanvas:!0,keyNavigation:!0,fadeStepWhenSkipped:!0,reverseWhenNavigatingBackwards:!0,autoPlay:!0,fallback:{speed:300}},mySequence=sequence(sequenceElement,options);
